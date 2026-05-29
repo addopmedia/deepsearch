@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niche Analytics</title>
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-title">Niche Analytics</div>
+      <div class="brand-sub" id="summary-sub">Загрузка…</div>
+    </div>
+    <div class="info-badges">
+      <span class="info-badge" data-tooltip="accel = revenue_30d / (revenue_12mo / месяцев, макс 12)&#10;• accel ≥ 1.2 → GROWING&#10;• accel < 0.8 → DECLINING&#10;• иначе → STABLE">
+        ⓘ Как считается тренд
+      </span>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="table">Таблица</button>
+    <button class="tab" data-tab="yoy">Рост по годам</button>
+    <button class="tab" data-tab="revenue-matrix">Revenue по месяцам</button>
+  </nav>
+
+  <section class="filters" id="filters-bar">
+    <input type="search" id="search" placeholder="Поиск по названию / разработчику / нише">
+    <select id="f-niche"><option value="">Все под-ниши</option></select>
+    <select id="f-trend">
+      <option value="">Тренд: все</option>
+      <option value="GROWING">Растут</option>
+      <option value="STABLE">Стабильны</option>
+      <option value="DECLINING">Падают</option>
+    </select>
+    <select id="f-type">
+      <option value="">Publisher: все</option>
+      <option value="Indie">Indie</option>
+      <option value="Creator">Creator</option>
+      <option value="Studio">Studio</option>
+      <option value="Investor">Investor</option>
+      <option value="Clone">Clone</option>
+      <option value="Unknown">Unknown</option>
+    </select>
+    <select id="f-source">
+      <option value="">Source: все</option>
+      <option value="APP">APP</option>
+      <option value="APP+">APP+ (paid UA)</option>
+      <option value="CONTENT">CONTENT</option>
+      <option value="HYBRID">HYBRID</option>
+      <option value="Unknown">Unknown</option>
+    </select>
+    <select id="f-mon">
+      <option value="">Mon: все</option>
+      <option value="SUB">SUB</option>
+      <option value="SUB+ADS">SUB+ADS</option>
+      <option value="ADS">ADS</option>
+      <option value="IAP">IAP</option>
+      <option value="FREE">FREE</option>
+      <option value="Unknown">Unknown</option>
+    </select>
+    <select id="f-ads">
+      <option value="">Ads: все</option>
+      <option value="yes">Advertised</option>
+      <option value="no">Organic</option>
+    </select>
+    <span class="count" id="count"></span>
+  </section>
+
+  <section class="table-wrap">
+    <table id="apps">
+      <thead>
+        <tr>
+          <th data-k="rank">#</th>
+          <th data-k="name">App</th>
+          <th data-k="developer_name">Publisher</th>
+          <th data-k="type">Type</th>
+          <th data-k="age_months">Age</th>
+          <th data-k="revenue_12mo" class="num">Rev 12mo</th>
+          <th data-k="revenue_30d" class="num">Rev 30d</th>
+          <th data-k="yoy_revenue_growth" class="num">YoY</th>
+          <th data-k="trend">Trend</th>
+          <th data-k="acceleration" class="num">Accel</th>
+          <th data-k="source">Src</th>
+          <th data-k="monetization">Mon</th>
+          <th data-k="advertised">Ads</th>
+          <th data-k="downloads_12mo" class="num">Downloads</th>
+          <th data-k="rpd" class="num">RPD</th>
+          <th data-k="sub_niche">Sub-niche</th>
+          <th data-k="rating_avg" class="num">Rating</th>
+          <th data-k="countries_count" class="num">Countries</th>
+          <th data-k="publisher_country">Pub.Co</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </section>
+
+  <!-- Рост по годам -->
+  <section class="matrix-wrap hidden" id="yoy-view">
+    <div class="matrix-controls">
+      <span class="matrix-hint">Δ% — рост revenue к предыдущему году. Последний год может быть неполным. Первая строка — итог по нише.</span>
+    </div>
+    <div class="matrix-scroll">
+      <table id="yoy-table"><thead></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <!-- Revenue по месяцам (pivot) -->
+  <section class="matrix-wrap hidden" id="matrix-view">
+    <div class="matrix-controls">
+      <label>Окно: <select id="matrix-window">
+        <option value="12">12 мес</option>
+        <option value="24" selected>24 мес</option>
+        <option value="36">36 мес</option>
+      </select></label>
+      <span class="matrix-hint">Цвет ячейки = доля от макс. месяца этого приложения. Hover — точное значение.</span>
+    </div>
+    <div class="matrix-scroll">
+      <table id="matrix-table"><thead></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <!-- Детальная модалка -->
+  <div id="modal-backdrop" class="modal-backdrop hidden" aria-hidden="true">
+    <div class="modal" id="modal" role="dialog" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="app.js?v=6"></script>
+</body>
+</html>
