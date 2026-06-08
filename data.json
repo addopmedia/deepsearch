@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_apps": 4,
-    "total_revenue_30d": 615000,
-    "total_revenue_12mo": 6372000,
+    "total_apps": 6,
+    "total_revenue_30d": 645000,
+    "total_revenue_12mo": 6407000,
     "overall_yoy": 120.12,
     "yoy_comparable_apps": 2,
     "total_revenue_prev_12mo": 50000,
@@ -16,38 +16,311 @@
       "2023": 0,
       "2024": 0,
       "2025": 3769000,
-      "2026": 2653000
+      "2026": 2688000
     },
     "trend": {
+      "GROWING": 3,
+      "UNKNOWN": 1,
       "STABLE": 1,
-      "DECLINING": 1,
-      "GROWING": 2
+      "DECLINING": 1
     },
     "types": {
-      "Unknown": 4
+      "Unknown": 6
     },
     "sources": {
-      "APP+": 3,
-      "Unknown": 1
+      "Unknown": 3,
+      "APP+": 3
     },
     "monetization": {
-      "SUB+ADS": 3,
-      "SUB": 1
+      "SUB": 3,
+      "SUB+ADS": 3
     },
     "top_countries": {
-      "?": 4
+      "?": 6
     },
     "sub_niches": {
+      "Phone Number Search": 3,
       "Mood & Journal": 2,
-      "Focus & Relax": 1,
-      "Phone Number Search": 1
+      "Focus & Relax": 1
     },
     "advertised": {
-      "advertised": 3,
-      "organic": 1
+      "organic": 3,
+      "advertised": 3
     }
   },
   "apps": [
+    {
+      "app_id": "6751121067",
+      "bundle": "com.arnold.deepsearch",
+      "name": "Deepsearch AI: People Finder",
+      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple211/v4/46/d1/ad/46d1ad06-0527-1493-d01a-bcb06cd45104/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/300x300bb.jpg",
+      "url": "https://apps.apple.com/us/app/id6751121067",
+      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6751121067-trends-revenue-statistics-downloads-ratings",
+      "source_url": "https://appstorespy.com/ios-apple-store/6751121067-trends-revenue-statistics-downloads-ratings",
+      "description": "Looking to find someone’s social profiles or explore their online presence? With Deepsearch AI: People Finder, you can instantly uncover publicly available information about individuals – all in one simple app.  Just type in a name and our AI-powered assistant scans multiple sources to deliver fast, accurate results. Forget endless searching across different sites – everything you need is in one place.  Key Benefits & Features:  Smart People Search – Enter basic details and instantly get results.  Social Profile Discovery – Find social media accounts and online profiles with ease.  Comprehensive Lookup – Access publicly available records, photos, videos, and mentions.  Reconnect Instantly – Track down old friends, classmates, or colleagues in seconds.  Time-Saving Cross-Platform Scan – One search covers multiple platforms at once.  Trending & Popular Searches – Stay updated on who’s being searched the most.   Perfect For:  Networking & Business – Quickly check out new contacts.  Recruiters & Employers – Review professional backgrounds with confidence.  Journalists & Researchers – Collect reliable public data in seconds.  Online Daters – Verify someone’s online presence before meeting.  Curious Minds – Learn more about people without endless manual searching.   Privacy & Transparency  We only provide information that is publicly accessible, ensuring safe, responsible, and ethical use.   Subscription Info  Get unlimited access with flexible weekly, monthly plans.  Subscriptions renew automatically – cancel anytime.  Terms of Service: https://sites.google.com/view/deepsearch-ai-people-finder/terms",
+      "developer_name": "Edmond Lafond",
+      "developer_url": "",
+      "publisher_country": "Unknown",
+      "publisher_country_source": "unknown",
+      "total_apps_by_dev": 3,
+      "category": "Lifestyle",
+      "sub_niche": "Mood & Journal",
+      "micro_niche": "Mood & Journal",
+      "released": "2025-08-19",
+      "age_months": 9,
+      "revenue_total": 6000,
+      "downloads_total": 0,
+      "revenue_12mo": 6000,
+      "downloads_12mo": 16000,
+      "revenue_30d": 6000,
+      "downloads_30d": 0,
+      "revenue_prev_12mo": 0,
+      "downloads_prev_12mo": 0,
+      "yoy_revenue_growth": "",
+      "yoy_downloads_growth": "",
+      "avg_monthly_revenue": 666.67,
+      "acceleration": 9.0,
+      "trend": "GROWING",
+      "rpd": 0.38,
+      "type": "Unknown",
+      "source": "Unknown",
+      "monetization": "SUB",
+      "iap": true,
+      "advertised": false,
+      "rating_avg": 4.0,
+      "rating_count": 36,
+      "top_country_revenue": "",
+      "top_countries_revenue": [],
+      "top_countries_downloads": [],
+      "countries_list": [
+        "GH",
+        "DM",
+        "CL",
+        "ZA",
+        "CO",
+        "BE",
+        "ZW",
+        "IT",
+        "EG",
+        "NO"
+      ],
+      "countries_count": 10,
+      "website": "",
+      "months": [
+        {
+          "m": "2025-08",
+          "d": 0,
+          "r": 0
+        },
+        {
+          "m": "2026-01",
+          "d": 10000,
+          "r": 0
+        },
+        {
+          "m": "2026-02",
+          "d": 6000,
+          "r": 0
+        },
+        {
+          "m": "2026-03",
+          "d": 0,
+          "r": 0
+        },
+        {
+          "m": "2026-04",
+          "d": 0,
+          "r": 6000
+        }
+      ],
+      "rev_by_year": {
+        "2025": 0,
+        "2026": 6000
+      }
+    },
+    {
+      "app_id": "6760255066",
+      "bundle": "com.deepcheckasistant.aiassistant.aisearch",
+      "name": "Deepscan - AI Search People",
+      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple221/v4/df/b3/75/dfb37553-b7a1-04e4-77d1-afeba0576b6b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/300x300bb.jpg",
+      "url": "https://apps.apple.com/us/app/id6760255066",
+      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6760255066-trends-revenue-statistics-downloads-ratings",
+      "source_url": "https://appstorespy.com/ios-apple-store/6760255066-trends-revenue-statistics-downloads-ratings",
+      "description": "Protect your online presence and verify public information effortlessly. DeepScan is an advanced AI-powered search assistant designed to help you understand your digital footprint and safely navigate the online world.  Stop wasting hours manually checking search engines. Built for modern online discovery, our AI securely aggregates publicly available records, verified news articles, and standard web search results to provide you with a clean, easy-to-read summary.  Whether you're trying to reconnect with an old friend, verify a public online profile for your own safety, or simply see what the internet knows about you, DeepSearch provides the public picture without the hassle.  --- 6 POWERFUL AI PUBLIC SEARCH TOOLS IN ONE APP ---  ● Reverse Image Search Never get catfished again. Upload a public photo, and our AI will scan indexed public images across the web to find visual matches. Great for verifying if an image is original,public images to find exact visual matches or a stock photo, helping you stay safe online.  ● AI Landmark Recognition Wondering where a beautiful landscape photo was taken? Let our AI analyze architectural structures and public terrain to estimate the general geographic region or famous landmarks.  ● Public Digital Footprint Enter a name and let the AI run a comprehensive sweep through standard, publicly accessible search engines to aggregate a summary of public web presence.   ● Media & Press Search Scan public news outlets, verified press releases, and public articles for mentions of a specific brand, company, or public figure.  ● Username Availability Check Enter a handle to see if it is publicly active or available across various popular social platforms and general forums.  ● Professional Networking Intel Looking to collaborate or network? Quickly aggregate public professional histories, published articles, and verified corporate links from standard web searches.  --> WHO IS THIS FOR? • Online Safety Advocates: Verify public profiles to protect yourself from fake accounts. • Curious Minds: Reconnect with lost contacts or old classmates using public directories. • Privacy Conscious Users: Run a scan on yourself! Find your own forgotten public accounts and clean up your digital footprint. • Professionals: Do basic public due diligence before collaborating or networking.  PRIVACY & TRANSPARENCY FIRST DeepScan is NOT a consumer reporting agency or a background check service. We do not provide private, restricted, or regulated data. We only aggregate publicly accessible information from standard search engines, ensuring ethical and responsible use.  --> UNLOCK PREMIUM ACCESS Subscribe to DeepScan PRO for unlimited searches, full aggregated reports, and advanced AI image scans. DeepScan app is available as Weekly, Monthly, and Yearly auto-renewable subscriptions to get unlimited scans and access to all features. Cancel anytime. Auto-renewal may be turned off at any time in your Apple ID Account Settings at least 24 hours before the end of the current period. DeepScan only shows publicly available data. No private user data is stored or shared.  Privacy Policy: https://familylink.life/api/vebpages/deepscan_privacypolicy.html Terms of Use: https://familylink.life/api/vebpages/deepscan_termofuse.html",
+      "developer_name": "SELCUK SENEL",
+      "developer_url": "",
+      "publisher_country": "Unknown",
+      "publisher_country_source": "unknown",
+      "total_apps_by_dev": 11,
+      "category": "Reference",
+      "sub_niche": "Phone Number Search",
+      "micro_niche": "Phone Number Search",
+      "released": "2026-04-14",
+      "age_months": 0,
+      "revenue_total": 0,
+      "downloads_total": 0,
+      "revenue_12mo": 0,
+      "downloads_12mo": 0,
+      "revenue_30d": 0,
+      "downloads_30d": 0,
+      "revenue_prev_12mo": 0,
+      "downloads_prev_12mo": 0,
+      "yoy_revenue_growth": "",
+      "yoy_downloads_growth": "",
+      "avg_monthly_revenue": 0.0,
+      "acceleration": 0.0,
+      "trend": "",
+      "rpd": 0.0,
+      "type": "Unknown",
+      "source": "Unknown",
+      "monetization": "SUB",
+      "iap": true,
+      "advertised": false,
+      "rating_avg": 0.0,
+      "rating_count": 0,
+      "top_country_revenue": "",
+      "top_countries_revenue": [],
+      "top_countries_downloads": [],
+      "countries_list": [],
+      "countries_count": 0,
+      "website": "https://selcuksenel.github.io/",
+      "months": [],
+      "rev_by_year": {}
+    },
+    {
+      "app_id": "6753351293",
+      "bundle": "co.appki.deepsearch",
+      "name": "DoubleCheck: AI People Search",
+      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/32/51/1f32515a-5011-c764-b7e6-88cb11a0c5c9/AppIcon-1x_U007ephone-0-1-0-0-85-220-0.jpeg/300x300bb.jpg",
+      "url": "https://apps.apple.com/us/app/id6753351293",
+      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6753351293-trends-revenue-statistics-downloads-ratings",
+      "source_url": "https://appstorespy.com/ios-apple-store/6753351293-trends-revenue-statistics-downloads-ratings",
+      "description": "DoubleCheck — AI People Search  Before you trust them, DoubleCheck them.  Enter a name. DoubleCheck's AI scans the public web and gives you a complete profile in seconds — photos, social accounts, online mentions, and key details, all in one place.  Use DoubleCheck before you...  · Go on a first date · Meet someone you matched with online · Trust a new acquaintance · Let someone into your home · Reconnect with an old friend · See what others find when they search your name  How it works  1. Enter a name. Add a city or photo for better accuracy. 2. AI scans live public sources in seconds. 3. Get a clean profile with photos, social accounts, and details. 4. Ask follow-up questions to explore further.  Why DoubleCheck  · AI that does the work for you. Don't just search, get an analyzed summary. · Live web data. Always fresh. We don't rely on stale databases. · One place, one search. No more switching between Google, Instagram, LinkedIn, and Facebook. · Verifiable sources. Every detail links back to its public origin. · Discreet. Your search stays private. The person you searched is never notified.  For personal use  DoubleCheck aggregates publicly available information from across the web. We do not access private accounts or hidden data.  DoubleCheck is for personal curiosity, safety, and reconnection. It is not a Consumer Reporting Agency and may not be used for decisions about employment, tenancy, credit, insurance, or any other FCRA-covered purpose.  Subscription  DoubleCheck Pro unlocks unlimited searches. Renews automatically, cancel anytime in Settings.  Privacy Policy: https://sites.google.com/view/doublecheck-privacy-policy Terms of Use: https://sites.google.com/view/doublecheck-terms-of-use",
+      "developer_name": "Appki Limited",
+      "developer_url": "",
+      "publisher_country": "UK",
+      "publisher_country_source": "heuristic",
+      "total_apps_by_dev": 4,
+      "category": "Entertainment",
+      "sub_niche": "Phone Number Search",
+      "micro_niche": "Phone Number Search",
+      "released": "2025-11-17",
+      "age_months": 6,
+      "revenue_total": 100000,
+      "downloads_total": 30000,
+      "revenue_12mo": 310000,
+      "downloads_12mo": 70000,
+      "revenue_30d": 100000,
+      "downloads_30d": 30000,
+      "revenue_prev_12mo": 0,
+      "downloads_prev_12mo": 0,
+      "yoy_revenue_growth": "",
+      "yoy_downloads_growth": "",
+      "avg_monthly_revenue": 51666.67,
+      "acceleration": 1.935,
+      "trend": "GROWING",
+      "rpd": 4.43,
+      "type": "Unknown",
+      "source": "APP+",
+      "monetization": "SUB+ADS",
+      "iap": true,
+      "advertised": true,
+      "rating_avg": 4.5,
+      "rating_count": 329,
+      "top_country_revenue": "",
+      "top_countries_revenue": [],
+      "top_countries_downloads": [],
+      "countries_list": [],
+      "countries_count": 0,
+      "website": "",
+      "months": [
+        {
+          "m": "2026-02",
+          "d": 0,
+          "r": 10000
+        },
+        {
+          "m": "2026-03",
+          "d": 40000,
+          "r": 200000
+        },
+        {
+          "m": "2026-04",
+          "d": 30000,
+          "r": 100000
+        }
+      ],
+      "rev_by_year": {
+        "2026": 310000
+      }
+    },
+    {
+      "app_id": "6755704234",
+      "bundle": "com.deepsearch.app",
+      "name": "DeepScan: AI Search Assistant",
+      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/ca/46/a3ca467f-c72a-9553-24e1-bcb5daef98d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/300x300bb.jpg",
+      "url": "https://apps.apple.com/us/app/id6755704234",
+      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6755704234-trends-revenue-statistics-downloads-ratings",
+      "source_url": "https://appstorespy.com/ios-apple-store/6755704234-trends-revenue-statistics-downloads-ratings",
+      "description": "DeepScan AI Search Assistant  Discover information faster and smarter with DeepScan AI, an advanced AI powered deep search assistant designed to explore, analyze, and summarize publicly available information from reliable sources.  DeepScan AI uses intelligent Deep Search technology to help you research topics, verify facts, and uncover meaningful insights across the web in a clear, structured, and responsible way.  If you are researching a subject, validating information, or exploring complex topics, DeepSearch AI delivers super fast, accurate, and well organized results powered by modern AI reasoning and smart indexing.  DeepScan AI is built to support deep searches across public information sources, analyze and summarize complex topics clearly, verify information accuracy using AI powered cross checking, discover context rich insights backed by multiple sources, and explore topics efficiently with layered DeepSearch results.  Inspired by modern AI research and deep analysis tools, DeepScan AI acts as an all in one smart assistant for information discovery, knowledge verification, and intelligent search.  DeepScan AI is designed for responsible information discovery. It does not access private data and operates using publicly available information only.  With built in deep verification logic, DeepScan AI helps you stay confident in the information you review while maintaining transparency and accuracy.  DeepScan AI delivers fast AI powered deep search, clear and easy to understand insights, smart topic analysis, intelligent summaries, and a privacy focused design optimized for accuracy and clarity.  Unlock the power of Deep Search, AI driven analysis, and intelligent research in one smart assistant.  The app is free to download with limited access. Some features require a subscription or in-app purchase. Details and pricing are shown before purchase.  Do you have any questions about the DeepScan AI app? We love receiving your feedback. You can reach us at theplusapps@gmail.com  Check terms and privacy policy here https://www.plusapps.com.tr/terms https://www.plusapps.com.tr/privacy",
+      "developer_name": "Plus Apps Bilisim Teknolojileri Reklamcilik Limited Sirketi",
+      "developer_url": "",
+      "publisher_country": "UK",
+      "publisher_country_source": "heuristic",
+      "total_apps_by_dev": 13,
+      "category": "Lifestyle",
+      "sub_niche": "Phone Number Search",
+      "micro_niche": "Phone Number Search",
+      "released": "2026-01-12",
+      "age_months": 4,
+      "revenue_total": 20000,
+      "downloads_total": 6000,
+      "revenue_12mo": 35000,
+      "downloads_12mo": 47000,
+      "revenue_30d": 30000,
+      "downloads_30d": 30000,
+      "revenue_prev_12mo": 0,
+      "downloads_prev_12mo": 0,
+      "yoy_revenue_growth": "",
+      "yoy_downloads_growth": "",
+      "avg_monthly_revenue": 8750.0,
+      "acceleration": 3.429,
+      "trend": "GROWING",
+      "rpd": 0.74,
+      "type": "Unknown",
+      "source": "Unknown",
+      "monetization": "SUB",
+      "iap": true,
+      "advertised": false,
+      "rating_avg": 4.0,
+      "rating_count": 292,
+      "top_country_revenue": "",
+      "top_countries_revenue": [],
+      "top_countries_downloads": [],
+      "countries_list": [],
+      "countries_count": 0,
+      "website": "https://www.plusapps.com.tr/",
+      "months": [
+        {
+          "m": "2026-02",
+          "d": 10000,
+          "r": 0
+        },
+        {
+          "m": "2026-03",
+          "d": 7000,
+          "r": 5000
+        },
+        {
+          "m": "2026-04",
+          "d": 30000,
+          "r": 30000
+        }
+      ],
+      "rev_by_year": {
+        "2026": 35000
+      }
+    },
     {
       "app_id": "6741062364",
       "bundle": "hubx.whois.ai.search",
@@ -87,7 +360,7 @@
       "iap": true,
       "advertised": true,
       "rating_avg": 4.3,
-      "rating_count": 38090,
+      "rating_count": 39285,
       "top_country_revenue": "",
       "top_countries_revenue": [],
       "top_countries_downloads": [],
@@ -212,8 +485,8 @@
       "micro_niche": "Focus & Relax",
       "released": "2023-02-13",
       "age_months": 39,
-      "revenue_total": 9000,
-      "downloads_total": 0,
+      "revenue_total": 50000,
+      "downloads_total": 20000,
       "revenue_12mo": 156000,
       "downloads_12mo": 160000,
       "revenue_30d": 9000,
@@ -232,7 +505,7 @@
       "iap": true,
       "advertised": true,
       "rating_avg": 4.7,
-      "rating_count": 1354,
+      "rating_count": 1359,
       "top_country_revenue": "",
       "top_countries_revenue": [],
       "top_countries_downloads": [],
@@ -325,162 +598,6 @@
         "2024": 0,
         "2025": 129000,
         "2026": 37000
-      }
-    },
-    {
-      "app_id": "6753351293",
-      "bundle": "co.appki.deepsearch",
-      "name": "DoubleCheck: AI People Search",
-      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/32/51/1f32515a-5011-c764-b7e6-88cb11a0c5c9/AppIcon-1x_U007ephone-0-1-0-0-85-220-0.jpeg/300x300bb.jpg",
-      "url": "https://apps.apple.com/us/app/id6753351293",
-      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6753351293-trends-revenue-statistics-downloads-ratings",
-      "source_url": "https://appstorespy.com/ios-apple-store/6753351293-trends-revenue-statistics-downloads-ratings",
-      "description": "DoubleCheck — AI People Search  Before you trust them, DoubleCheck them.  Enter a name. DoubleCheck's AI scans the public web and gives you a complete profile in seconds — photos, social accounts, online mentions, and key details, all in one place.  Use DoubleCheck before you...  · Go on a first date · Meet someone you matched with online · Trust a new acquaintance · Let someone into your home · Reconnect with an old friend · See what others find when they search your name  How it works  1. Enter a name. Add a city or photo for better accuracy. 2. AI scans live public sources in seconds. 3. Get a clean profile with photos, social accounts, and details. 4. Ask follow-up questions to explore further.  Why DoubleCheck  · AI that does the work for you. Don't just search, get an analyzed summary. · Live web data. Always fresh. We don't rely on stale databases. · One place, one search. No more switching between Google, Instagram, LinkedIn, and Facebook. · Verifiable sources. Every detail links back to its public origin. · Discreet. Your search stays private. The person you searched is never notified.  For personal use  DoubleCheck aggregates publicly available information from across the web. We do not access private accounts or hidden data.  DoubleCheck is for personal curiosity, safety, and reconnection. It is not a Consumer Reporting Agency and may not be used for decisions about employment, tenancy, credit, insurance, or any other FCRA-covered purpose.  Subscription  DoubleCheck Pro unlocks unlimited searches. Renews automatically, cancel anytime in Settings.  Privacy Policy: https://sites.google.com/view/doublecheck-privacy-policy Terms of Use: https://sites.google.com/view/doublecheck-terms-of-use",
-      "developer_name": "Appki Limited",
-      "developer_url": "",
-      "publisher_country": "UK",
-      "publisher_country_source": "heuristic",
-      "total_apps_by_dev": 4,
-      "category": "Entertainment",
-      "sub_niche": "Phone Number Search",
-      "micro_niche": "Phone Number Search",
-      "released": "2025-11-17",
-      "age_months": 6,
-      "revenue_total": 100000,
-      "downloads_total": 30000,
-      "revenue_12mo": 310000,
-      "downloads_12mo": 70000,
-      "revenue_30d": 100000,
-      "downloads_30d": 30000,
-      "revenue_prev_12mo": 0,
-      "downloads_prev_12mo": 0,
-      "yoy_revenue_growth": "",
-      "yoy_downloads_growth": "",
-      "avg_monthly_revenue": 51666.67,
-      "acceleration": 1.935,
-      "trend": "GROWING",
-      "rpd": 4.43,
-      "type": "Unknown",
-      "source": "APP+",
-      "monetization": "SUB+ADS",
-      "iap": true,
-      "advertised": true,
-      "rating_avg": 4.5,
-      "rating_count": 318,
-      "top_country_revenue": "",
-      "top_countries_revenue": [],
-      "top_countries_downloads": [],
-      "countries_list": [],
-      "countries_count": 0,
-      "website": "",
-      "months": [
-        {
-          "m": "2026-02",
-          "d": 0,
-          "r": 10000
-        },
-        {
-          "m": "2026-03",
-          "d": 40000,
-          "r": 200000
-        },
-        {
-          "m": "2026-04",
-          "d": 30000,
-          "r": 100000
-        }
-      ],
-      "rev_by_year": {
-        "2026": 310000
-      }
-    },
-    {
-      "app_id": "6751121067",
-      "bundle": "com.arnold.deepsearch",
-      "name": "Deepsearch AI: People Finder",
-      "icon": "https://is2-ssl.mzstatic.com/image/thumb/Purple211/v4/46/d1/ad/46d1ad06-0527-1493-d01a-bcb06cd45104/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/300x300bb.jpg",
-      "url": "https://apps.apple.com/us/app/id6751121067",
-      "url_appstorespy": "https://appstorespy.com/ios-apple-store/6751121067-trends-revenue-statistics-downloads-ratings",
-      "source_url": "https://appstorespy.com/ios-apple-store/6751121067-trends-revenue-statistics-downloads-ratings",
-      "description": "Looking to find someone’s social profiles or explore their online presence? With Deepsearch AI: People Finder, you can instantly uncover publicly available information about individuals – all in one simple app.  Just type in a name and our AI-powered assistant scans multiple sources to deliver fast, accurate results. Forget endless searching across different sites – everything you need is in one place.  Key Benefits & Features:  Smart People Search – Enter basic details and instantly get results.  Social Profile Discovery – Find social media accounts and online profiles with ease.  Comprehensive Lookup – Access publicly available records, photos, videos, and mentions.  Reconnect Instantly – Track down old friends, classmates, or colleagues in seconds.  Time-Saving Cross-Platform Scan – One search covers multiple platforms at once.  Trending & Popular Searches – Stay updated on who’s being searched the most.   Perfect For:  Networking & Business – Quickly check out new contacts.  Recruiters & Employers – Review professional backgrounds with confidence.  Journalists & Researchers – Collect reliable public data in seconds.  Online Daters – Verify someone’s online presence before meeting.  Curious Minds – Learn more about people without endless manual searching.   Privacy & Transparency  We only provide information that is publicly accessible, ensuring safe, responsible, and ethical use.   Subscription Info  Get unlimited access with flexible weekly, monthly plans.  Subscriptions renew automatically – cancel anytime.  Terms of Service: https://sites.google.com/view/deepsearch-ai-people-finder/terms",
-      "developer_name": "Edmond Lafond",
-      "developer_url": "",
-      "publisher_country": "Unknown",
-      "publisher_country_source": "unknown",
-      "total_apps_by_dev": 3,
-      "category": "Lifestyle",
-      "sub_niche": "Mood & Journal",
-      "micro_niche": "Mood & Journal",
-      "released": "2025-08-19",
-      "age_months": 9,
-      "revenue_total": 6000,
-      "downloads_total": 0,
-      "revenue_12mo": 6000,
-      "downloads_12mo": 16000,
-      "revenue_30d": 6000,
-      "downloads_30d": 0,
-      "revenue_prev_12mo": 0,
-      "downloads_prev_12mo": 0,
-      "yoy_revenue_growth": "",
-      "yoy_downloads_growth": "",
-      "avg_monthly_revenue": 666.67,
-      "acceleration": 9.0,
-      "trend": "GROWING",
-      "rpd": 0.38,
-      "type": "Unknown",
-      "source": "Unknown",
-      "monetization": "SUB",
-      "iap": true,
-      "advertised": false,
-      "rating_avg": 4.0,
-      "rating_count": 34,
-      "top_country_revenue": "",
-      "top_countries_revenue": [],
-      "top_countries_downloads": [],
-      "countries_list": [
-        "GH",
-        "DM",
-        "CL",
-        "ZA",
-        "CO",
-        "BE",
-        "ZW",
-        "IT",
-        "EG",
-        "NO"
-      ],
-      "countries_count": 10,
-      "website": "",
-      "months": [
-        {
-          "m": "2025-08",
-          "d": 0,
-          "r": 0
-        },
-        {
-          "m": "2026-01",
-          "d": 10000,
-          "r": 0
-        },
-        {
-          "m": "2026-02",
-          "d": 6000,
-          "r": 0
-        },
-        {
-          "m": "2026-03",
-          "d": 0,
-          "r": 0
-        },
-        {
-          "m": "2026-04",
-          "d": 0,
-          "r": 6000
-        }
-      ],
-      "rev_by_year": {
-        "2025": 0,
-        "2026": 6000
       }
     }
   ]
